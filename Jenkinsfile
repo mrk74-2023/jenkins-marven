@@ -3,7 +3,7 @@ podTemplate(containers: [
       name: 'maven', 
       image: 'maven:latest', 
       command: 'sleep', 
-      args: '99d'
+      args: '60d'
       )
   ], 
   
